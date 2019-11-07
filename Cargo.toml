@@ -8,7 +8,6 @@ repository = "https://github.com/fpgaminer/rust-lzma"
 readme = "README.md"
 keywords = ["lzma", "compression", "decompression", "xz", "liblzma"]
 license = "MIT"
-build = "build.rs"
 
 [lib]
 name = "lzma"
@@ -16,4 +15,3 @@ name = "lzma"
 [dependencies]
 
 [build-dependencies]
-pkg-config = "^0.3.3"
